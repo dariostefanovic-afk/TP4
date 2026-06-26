@@ -1,7 +1,6 @@
 <?php
 include_once('../../modelo/auto.php');
 include_once('../../modelo/persona.php');
-//include_once '../persona/abmpersona.php';
 include_once('validadorauto.php');
 include_once '../../util/funciones.php';
 
@@ -161,6 +160,16 @@ class AbmAuto
         $esValido = false;
         $objValidador = new ValidadorAuto();
         if ($objValidador->validarDatos($param)) {
+                $esValido = true;
+        }
+        return $esValido;
+    }
+
+    public function validacionDatosCambioDuenio($param)
+    {
+        $esValido = false;
+        $objValidador = new ValidadorAuto();
+        if ($objValidador->validarDatosCambioDuenio($param)) {
                 $esValido = true;
         }
         return $esValido;

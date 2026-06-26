@@ -69,6 +69,18 @@ class ValidadorAuto
         return $esValido;
     }
 
+    public function validarDatosCambioDuenio($datos)
+    {
+        $esValido = false;
+        if (
+            $this->validarPatente($datos['patente']) 
+            && $this->validarDni($datos['nroDni']) 
+        ) {
+            $esValido = true;
+        }
+        return $esValido;
+    }
+
     /**
      * Modulo correspondiente de validar si la patente es valida
      * @param string $patente
