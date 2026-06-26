@@ -22,10 +22,12 @@
                             Ejercicios
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="ejercicio1.php">Ver personas</a></li>
+                            <li><a class="dropdown-item" href="ejercicio1.php">Listar personas</a></li>
                             <li><a class="dropdown-item" href="ejercicio2.php">Ingresar persona</a></li>
-                            <li><a class="dropdown-item" href="ejercicio7.php">Ver autos</a></li>
+                            <li><a class="dropdown-item" href="ejercicio7.php">Listar autos</a></li>
                             <li><a class="dropdown-item" href="ejercicio8.php">Ingresar auto</a></li>
+                            <li><a class="dropdown-item" href="ejercicio11.php">Listar autos de una persona</a></li>
+                            <li><a class="dropdown-item" href="ejercicio12.php">Cambiar dueño de un auto</a></li>
                         </ul>
                     </li>
                 </ul>
