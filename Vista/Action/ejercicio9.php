@@ -6,7 +6,7 @@ include_once '../../control/auto/abmauto.php';
 $datos = data_submitted();
 $abmAuto = new AbmAuto();
 
-verEstructura($datos);
+//verEstructura($datos);
 
 if ($abmAuto->baja($datos)) {
 
